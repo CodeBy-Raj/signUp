@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: "Lato", sans-serif;
+}
+
+.outer-box{
+    height: 100vh;
+    width: 100vw;
+    /* background: linear-gradient(to top left,red,blue); */
+    background: linear-gradient(to top left,#3ed8ff,#a8f5ff);
+
+}
+
+.inner-box{
+
+    
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top:50%;
+    background-color: #ffffff90;
+    border-radius: 8px;
+    transform: translateY(-50%); 
+    padding: 20px 40px;
+    z-index: 2;
+    
+    
+}
+
+/* IMPORTANT NOTE--
+
+here in backgroud color #ffff this is for white color but afer that ff90 this is opacity that is 90 percent opacity */
+
+.signup-body{
+    margin: 20px 0;
+}
+.form-element{
+    margin: 10px 0;
+}
+
+.form-element label{
+display: block;
+font-weight: bold;
+}
+
+.form-element input{
+width: 100%;
+padding: 10px;
+border: 2px solid #ccc;
+font-size: 1rem;
+margin-top: 4px;
+}
+
+#submit{
+    width: 100%;
+    background-color: #3498db;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+    padding: 10px;
+    border: none;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #1d5d87;
+    transition: 0.5s;
+
+}
+
+.signup-footer p {
+    color: #555;
+    text-align: center;
+}
+.signup-footer p a{
+    color: #302e2e;
+   text-decoration: none;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right,#ffffff33,#ffffffff);
+    position: absolute;
+
+}
+
+.c1{
+    top:100px;
+    left: 40px;
+}
+
+.c2{
+    bottom: 200px;
+    right: 50px;
+}
+
